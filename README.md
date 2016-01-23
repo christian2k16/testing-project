@@ -1,6 +1,6 @@
 # BasicMavenDay04
 Basic Maven structure to put on Github
 
-(like http://www.github.com/)
+(http://www.github.com/)
 
-[Christian Mallapre] (http://mallaprechristian@yahoo.com)
+[Christian Mallapre] (http://www.mallaprechristian@yahoo.com/)
