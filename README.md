@@ -4,7 +4,7 @@ Basic Maven structure to put on Github
 
 Emoji | Emoji Cheat Code 
 ------------ | -------------
-:aries: | ":aries:"
+:aries: | #:aries:
 :taurus: | ":taurus:"
 :gemini: | ":gemini:"
 :cancer: | ":cancer:"
