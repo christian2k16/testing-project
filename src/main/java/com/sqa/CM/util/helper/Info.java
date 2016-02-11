@@ -10,6 +10,8 @@
 
 package com.sqa.CM.util.helper;
 
+import java.util.Arrays;
+
 /**
  * Info //ADDD (description of class)
  * <p>
@@ -27,12 +29,20 @@ public class Info {
 	}
 
 	public static void displayInfo(Object obj) {
+		System.out.println("The object is of type: " + obj.getClass().getSimpleName());
+		System.out.println("\tThe number of modifiers are: " + obj.getClass().getModifiers());
+		System.out.println("\tThe fields are: " + Arrays.deepToString(obj.getClass().getFields()));
+		System.out.println("\tThe methods are: " + Arrays.deepToString(obj.getClass().getDeclaredMethods()));
+		System.out.println("\tValue of object: " + obj.toString());
 	}
 
 	public static void displayInfo(Object obj1, Object obj2, Object... objN) {
 	}
 
 	public static void displayInfo(Object[] obj) {
+		for (Object object : obj) {
+			displayInfo(object);
+		}
 	}
 
 	public static String get2DInfo(Object[][] objects) {
