@@ -1,10 +1,10 @@
+package com.sqa.CM.util.helper;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import com.sqa.CM.util.helper.Info;
 
 /**
  *   File Name: InfoTest.java<br>
@@ -227,7 +227,9 @@ class Animal {
 	/**
 	 * @see java.lang.Object#toString()
 	 */
+
 	@Override
+	@Test
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Animal [age=");
@@ -241,5 +243,4 @@ class Animal {
 		builder.append("]");
 		return builder.toString();
 	}
-
 }
